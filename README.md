@@ -1,7 +1,3 @@
-Here’s a README file for your Todo App with a credit section to the YouTube channel Smoljames:
-
----
-
 # Todo App with React
 
 This is a simple and intuitive Todo application built with React. It allows users to add, edit, and delete tasks, making it a perfect project for practicing component-based development and state management in React.
@@ -67,7 +63,3 @@ Special thanks to the YouTube channel [Smoljames](https://www.youtube.com/watch?
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-This README provides a clear overview of my project, including setup instructions and credits. You can customize it further based on additional details specific to your implementation.
