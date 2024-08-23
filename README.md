@@ -70,4 +70,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-This README provides a clear overview of your project, including setup instructions and credits. You can customize it further based on additional details specific to your implementation.
+This README provides a clear overview of my project, including setup instructions and credits. You can customize it further based on additional details specific to your implementation.
