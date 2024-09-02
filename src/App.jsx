@@ -1,6 +1,10 @@
 import { useState, useEffect } from "react"
+import Footer from './components/Footer';
 import TodoInput from "./components/TodoInput"
 import TodoList from "./components/TodoList"
+import MyCalendar from "./components/Calendar";
+import RandomQuote from "./components/RandomQuote";
+import PomodoroTimers from "./components/PomodoroApp";
 
 function App() {
 
@@ -47,10 +51,24 @@ function App() {
   }, [])
 
   return (
-    <>
-      <TodoInput todoValue={todoValue} setTodoValue={setTodoValue} handleAddTodos={handleAddTodos}/>
-      <TodoList handleDeleteTodos={handleDeleteTodos} handleEditTodos={handleEditTodos} todos={todos}/> 
-    </>
+  <div className="app-container">
+      <main className="main-content">
+        <div className="todo-section">
+          <TodoInput todoValue={todoValue} setTodoValue={setTodoValue} handleAddTodos={handleAddTodos}/>
+          <TodoList handleDeleteTodos={handleDeleteTodos} handleEditTodos={handleEditTodos} todos={todos}/>
+        </div>
+        <div className="calendar-section">
+          <MyCalendar />
+        </div>
+        <div className="quote-section">
+          <RandomQuote />
+        </div>
+        <div className="pomodoro-section">
+          <PomodoroTimers/>
+        </div>
+      </main>
+      <Footer />
+    </div>
   )
 }
 
