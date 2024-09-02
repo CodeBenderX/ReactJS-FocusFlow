@@ -15,7 +15,7 @@ function Footer() {
       }}
     >
       <Container maxWidth="xl">
-        <Typography variant="body1">Angelo Tiquio © 2024</Typography>
+        <Typography variant="body1">Angelo Tiquio © 2024 <br /> ToDo List inspired by <a href="https://www.youtube.com/@Smoljames">SmolJames</a></Typography>
       </Container>
     </Box>
   );
