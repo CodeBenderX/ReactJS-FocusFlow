@@ -13,6 +13,9 @@ input,
 button {
   font-family: 'Press Start 2P', system-ui;
 }
+#todoTitle{
+  text-align: center;
+}
 
 #root {
   min-height: 100vh;
@@ -114,4 +117,35 @@ p {
   p {
     font-size: 1em;
   }
+}
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #2d6a8e;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.todo-section,
+.calendar-section,
+.quote-section,
+.music-player-section {
+  background-color: #b0c4de;
+  padding: 20px;
+  border-radius: 10px;
 }
