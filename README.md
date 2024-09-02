@@ -2,6 +2,21 @@
 
 This is a simple and intuitive Todo application built with React. It allows users to add, edit, and delete tasks, making it a perfect project for practicing component-based development and state management in React.
 
+##Program Structure
+- src/
+├── components/
+│   ├── TodoList.js
+│   ├── TodoItem.js
+│   ├── Calendar.js
+│   ├── Reminders.js
+│   ├── Notes.js
+│   ├── TimeDisplay.js
+├── pages/
+│   ├── Home.js
+├── App.js
+├── index.js
+
+
 ## Features
 
 - Add Todos: Enter tasks to be added to the list.
