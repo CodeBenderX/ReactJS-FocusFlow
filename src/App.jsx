@@ -63,15 +63,15 @@ function App() {
           <TodoInput todoValue={todoValue} setTodoValue={setTodoValue} handleAddTodos={handleAddTodos}/>
           <TodoList handleDeleteTodos={handleDeleteTodos} handleEditTodos={handleEditTodos} todos={todos}/>
         </div>
-        <div className="calendar-section">
+        {/* <div className="calendar-section">
           <Calendar />
-        </div>
-        <div className="quote-section">
+        </div> */}
+        {/* <div className="quote-section">
           <Quote />
-        </div>
-        <div className="music-player-section">
+        </div> */}
+        {/* <div className="music-player-section">
           <MusicPlayer />
-        </div>
+        </div> */}
       </main>
       <Footer />
     </div>
